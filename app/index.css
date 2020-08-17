@@ -1,0 +1,12 @@
+@import "roboto.css";
+@import "~normalize.css";
+
+html {
+    height: 100vh;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    height: inherit;
+}

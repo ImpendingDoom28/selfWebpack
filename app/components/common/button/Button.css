@@ -1,0 +1,28 @@
+.defaultButton {
+    border: solid black;
+    border-width: 1px 0px 1px 2px;
+    padding: 1rem 0.5rem;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    background: white;
+}
+
+.primary {
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem;
+    color: white;
+    background: #0085fc;
+    font-size: 1.15em;
+    width: inherit;
+}
+
+.selected,
+.selected:focus {
+    border-color:  #839ab7 !important;
+    outline: none !important;
+    background: #d9e8fb !important;
+}
+
+

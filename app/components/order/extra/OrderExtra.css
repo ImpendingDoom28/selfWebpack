@@ -1,0 +1,27 @@
+.extrasContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.extrasSelectors {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 1.5rem;
+}
+
+.extrasSelectors > button {
+    font-size: 1.5rem;
+    width: 250px;
+    padding: 0.5rem 0;
+    border: solid black;
+    border-width: 1px 2px 1px 2px;
+}
+
+.extrasSelectors > button:nth-child(1) {
+    border-width: 2px 2px 1px 2px;
+}
+
+.extrasSelectors > button:nth-child(2) {
+    border-width: 1px 2px 2px 2px;
+}
